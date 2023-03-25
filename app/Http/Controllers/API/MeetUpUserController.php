@@ -19,7 +19,7 @@ class MeetUpUserController extends Controller
             return response()->json([
                 "status" => 1,
                 "message" => "success",
-                "meetup-users" => $users,
+                "meetup_users" => $users,
             ]);
         } else {
             return response()->json([
